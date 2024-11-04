@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculador de Proporções em Ligações Químicas</title> 
+    <script src="ex8.js"></script> 
+</head>
+<body>
+    <h1>Calculador de Proporções em Ligações Químicas</h1>
+    
+    <h2>Ligações Iônicas</h2>
+    <label for="metalEletrons">Elétrons a perder pelo metal:</label>
+    <input type="number" id="metalEletrons">
+    <br>
+    <label for="ametalEletrons">Elétrons a ganhar pelo ametal:</label>
+    <input type="number" id="ametalEletrons">
+    <br>
+    <button onclick="calcularIonica()">Calcular</button>
+    <p id="resultadoIonica"></p>
+
+    <h2>Ligações Covalentes</h2>
+    <label for="elemento1Ligacoes">Ligações do elemento 1:</label>
+    <input type="number" id="elemento1Ligacoes">
+    <br>
+    <label for="elemento2Ligacoes">Ligações do elemento 2:</label>
+    <input type="number" id="elemento2Ligacoes">
+    <br>
+    <button onclick="calcularCovalente()">Calcular</button>
+    <p id="resultadoCovalente"></p>
+
+    
+</body>
+</html>
